@@ -1,18 +1,13 @@
-for num in range(8): 
-    
+def fizzBuzz(n):
+  for n in range(1,n):
+    if n % 3 == 0 and n % 5 == 0:
+     print("FizzBuzz")
+    elif n % 3 == 0:
+     print("Fizz")
+    elif n % 5 == 0:
+        print("Buzz")
+    else:
+        print (n)
 
-    if num % 15 == 0: 
-        print(" Fizz_Buzz ")                                         
-        continue 
-     
-    
-    elif num % 3 == 0:     
-        print(" Fizz")                                         
-        continue 
-    
-    elif num % 5 == 0:         
-        print(" Buzz ")                                     
-        continue  
-    
-    print(num) 
+fizzBuzz (6)
 
